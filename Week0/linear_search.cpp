@@ -8,7 +8,7 @@ int search(int a[],int key)
 	int position=-1,i;
 	for(i=0;i<n;i++)
 		if(a[i]==key)
-			return i;
+			return i+1;
 	return position;
 }
 
@@ -29,9 +29,9 @@ int main()
 		cin>>key;	//element to be searched
 		ans=search(arr,key);
 		if(ans==-1)
-			cout<<"The key element "<<key<<" is not present in the array."<<endl;
+			cout<<"The key element "<<key<<" is not present in the array. Number of comparisons = "<<n<<endl;
 		else
-			cout<<"The key element "<<key<<" is present at index "<<ans<<" of the array."<<endl;
+			cout<<"The key element "<<key<<" is present in the array. Number of comparisons = "<<ans<<endl;
 	}
 return 0;
 }
