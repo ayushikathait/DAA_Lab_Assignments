@@ -2,7 +2,7 @@
 using namespace std;
 
 int n;	//n is defined as global variable so that it isn't needed to be passes as an argument in the function
-int c;
+int c=0;
 int binary_search(int a[],int key,int low, int high)
 {
 	int i,mid;
@@ -37,6 +37,7 @@ int main()
 	cin>>t;	//number of test cases
 	while(t--)
 	{
+		c=0;
 		//cout<<"Enter the size of the array:";
 		cin>>n;		//size of each array
 		//cout<<"Enter the non-negative integers in a sorted order into the array:"; // zero can also be included in the array
