@@ -1,0 +1,5 @@
+//Output:-
+
+Present 5
+Not Present 8
+Present 6
