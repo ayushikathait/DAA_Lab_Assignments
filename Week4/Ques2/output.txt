@@ -1,0 +1,9 @@
+Comparisons - 18
+Swaps - 9
+21 32 34 46 51 54 65 76 78 97 
+Comparisons - 22
+Swaps - 12
+12 22 31 42 46 54 63 65 86 223 324 325 553 645 652 
+Comparisons - 49
+Swaps - 25
+
